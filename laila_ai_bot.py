@@ -8,10 +8,10 @@ import random
 # --- Bot Credentials ---
 import os  # Add this at the top of your file if not already present
 
-api_id = int(os.environ.get("API_ID"))
-api_hash = os.environ.get("API_HASH")
-bot_token = os.environ.get("BOT_TOKEN")
-openrouter_api_key = os.environ.get("OPENROUTER_API_KEY", "")
+api_id = 25427040
+api_hash = "1f0376de02e45ada535faf115efc0a57"
+bot_token = "8070478670:AAFjyTy5-xbQLbCF-y5LvuCvOUNs-aN35sM"
+openrouter_api_key = ""  # Leave blank to use OpenRouter default free models
 
 app = Client("laila_ai_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
